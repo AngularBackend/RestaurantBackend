@@ -21,7 +21,7 @@ namespace AngularProjesi
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>(); /*Startup classýný çaðýrýyor.Startup classý projemizi ayaða
-                                                         kaldýrmak için gerekli yetkinlikleri yüklüyor */      
+                                                         kaldýrmak için gerekli yetkinlikleri yüklüyor*/      
                 });
     }
 }
