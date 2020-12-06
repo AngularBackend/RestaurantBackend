@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace AngularProjesi.Controllers
 {
-    public class UserController : Controller
+    public class UserController : Controller //Controller ve Action aracığıyla Business Engine Katmanına gidecez
     {
         public IActionResult Index()
         {

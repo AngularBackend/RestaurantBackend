@@ -9,7 +9,7 @@ using Microsoft.Extensions.Logging;
 
 namespace AngularProjesi
 {
-    public class Program
+    public class Program //Projemize ilk run dediðimizde ayaða kalkacak olan class  
     {
         public static void Main(string[] args)
         {
@@ -20,7 +20,8 @@ namespace AngularProjesi
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    webBuilder.UseStartup<Startup>();
+                    webBuilder.UseStartup<Startup>(); /*Startup classýný çaðýrýyor.Startup classý projemizi ayaða
+                                                         kaldýrmak için gerekli yetkinlikleri yüklüyor */      
                 });
     }
 }

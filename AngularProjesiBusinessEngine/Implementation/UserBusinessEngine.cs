@@ -1,10 +1,11 @@
-﻿using System;
+﻿using AngularProjesiBusinessEngine.Contracts;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace AngularProjesiBusinessEngine.Implementation
 {
-    class UserBusinessEngine
+    public class UserBusinessEngine : IUserBusinessEngine
     {
     }
 }

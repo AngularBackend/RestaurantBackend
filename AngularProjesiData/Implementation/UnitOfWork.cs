@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AngularProjesiData.Implementation
 {
-    class UnitOfWork
+   public class UnitOfWork
     {
     }
 }

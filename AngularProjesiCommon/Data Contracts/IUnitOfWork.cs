@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AngularProjesiCommon.Data_Contracts
 {
-    class IUnitOfWork
+   interface IUnitOfWork
     {
     }
 }

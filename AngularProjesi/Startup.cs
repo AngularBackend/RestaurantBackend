@@ -13,7 +13,7 @@ using Microsoft.Extensions.Logging;
 
 namespace AngularProjesi
 {
-    public class Startup
+    public class Startup //Ana uygulamalarýmýz için,deðiþikler yapacaðýmýz yeri geldi mi servisleri tanýtacaðýmýz class
     {
         public Startup(IConfiguration configuration)
         {
