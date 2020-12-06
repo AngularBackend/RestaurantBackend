@@ -2,3 +2,11 @@ C:\Users\karde\Desktop\Angular\AngularProjesi\AngularProjesiData\bin\Debug\netco
 C:\Users\karde\Desktop\Angular\AngularProjesi\AngularProjesiData\obj\Debug\netcoreapp3.1\AngularProjesiData.csprojAssemblyReference.cache
 C:\Users\karde\Desktop\Angular\AngularProjesi\AngularProjesiData\obj\Debug\netcoreapp3.1\AngularProjesiData.AssemblyInfoInputs.cache
 C:\Users\karde\Desktop\Angular\AngularProjesi\AngularProjesiData\obj\Debug\netcoreapp3.1\AngularProjesiData.AssemblyInfo.cs
+C:\Users\karde\Desktop\Angular\AngularProjesi\AngularProjesiData\bin\Debug\netcoreapp3.1\AngularProjesiData.deps.json
+C:\Users\karde\Desktop\Angular\AngularProjesi\AngularProjesiData\bin\Debug\netcoreapp3.1\AngularProjesiData.dll
+C:\Users\karde\Desktop\Angular\AngularProjesi\AngularProjesiData\bin\Debug\netcoreapp3.1\AngularProjesiData.pdb
+C:\Users\karde\Desktop\Angular\AngularProjesi\AngularProjesiData\bin\Debug\netcoreapp3.1\AngularProjesiCommon.pdb
+C:\Users\karde\Desktop\Angular\AngularProjesi\AngularProjesiData\obj\Debug\netcoreapp3.1\AngularProjesiData.csproj.CoreCompileInputs.cache
+C:\Users\karde\Desktop\Angular\AngularProjesi\AngularProjesiData\obj\Debug\netcoreapp3.1\AngularProjesiData.csproj.CopyComplete
+C:\Users\karde\Desktop\Angular\AngularProjesi\AngularProjesiData\obj\Debug\netcoreapp3.1\AngularProjesiData.dll
+C:\Users\karde\Desktop\Angular\AngularProjesi\AngularProjesiData\obj\Debug\netcoreapp3.1\AngularProjesiData.pdb

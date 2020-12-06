@@ -1,0 +1,9 @@
+C:\Users\karde\Desktop\Angular\AngularProjesi\AngularProjesiCommon\bin\Debug\netcoreapp3.1\AngularProjesiCommon.deps.json
+C:\Users\karde\Desktop\Angular\AngularProjesi\AngularProjesiCommon\bin\Debug\netcoreapp3.1\AngularProjesiCommon.dll
+C:\Users\karde\Desktop\Angular\AngularProjesi\AngularProjesiCommon\obj\Debug\netcoreapp3.1\AngularProjesiCommon.csprojAssemblyReference.cache
+C:\Users\karde\Desktop\Angular\AngularProjesi\AngularProjesiCommon\obj\Debug\netcoreapp3.1\AngularProjesiCommon.AssemblyInfoInputs.cache
+C:\Users\karde\Desktop\Angular\AngularProjesi\AngularProjesiCommon\obj\Debug\netcoreapp3.1\AngularProjesiCommon.AssemblyInfo.cs
+C:\Users\karde\Desktop\Angular\AngularProjesi\AngularProjesiCommon\bin\Debug\netcoreapp3.1\AngularProjesiCommon.pdb
+C:\Users\karde\Desktop\Angular\AngularProjesi\AngularProjesiCommon\obj\Debug\netcoreapp3.1\AngularProjesiCommon.csproj.CoreCompileInputs.cache
+C:\Users\karde\Desktop\Angular\AngularProjesi\AngularProjesiCommon\obj\Debug\netcoreapp3.1\AngularProjesiCommon.dll
+C:\Users\karde\Desktop\Angular\AngularProjesi\AngularProjesiCommon\obj\Debug\netcoreapp3.1\AngularProjesiCommon.pdb
