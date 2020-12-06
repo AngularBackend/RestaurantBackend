@@ -1,0 +1,6 @@
+Bu katman(AngularProjesiBusinessEngine):AngularProjesi tarafındaki verilerimiz alacak
+data katmanı(domain) doğru işlemleri taşıyacak olan katman
+
+AngularProjesiData katmanı da: DbContext kısmınıda burada düşünüyoruz.
+
+AngularProjesiCommon : İşlemlerimizi gerçekleştirecek olan bazı dönüşüm viewlerimiz olacak bu katmanda bu işe yarayacak

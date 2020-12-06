@@ -1,0 +1,4 @@
+C:\Users\karde\Desktop\Angular\AngularProjesi\AngularProjesiData\bin\Debug\netcoreapp3.1\AngularProjesiCommon.dll
+C:\Users\karde\Desktop\Angular\AngularProjesi\AngularProjesiData\obj\Debug\netcoreapp3.1\AngularProjesiData.csprojAssemblyReference.cache
+C:\Users\karde\Desktop\Angular\AngularProjesi\AngularProjesiData\obj\Debug\netcoreapp3.1\AngularProjesiData.AssemblyInfoInputs.cache
+C:\Users\karde\Desktop\Angular\AngularProjesi\AngularProjesiData\obj\Debug\netcoreapp3.1\AngularProjesiData.AssemblyInfo.cs
