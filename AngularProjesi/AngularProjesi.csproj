@@ -4,5 +4,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AngularProjesiCommon\AngularProjesiCommon.csproj" />
+    <ProjectReference Include="..\AngularProjesiData\AngularProjesiData.csproj" />
+  </ItemGroup>
+
 
 </Project>
