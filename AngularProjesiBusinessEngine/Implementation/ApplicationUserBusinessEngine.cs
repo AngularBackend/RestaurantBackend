@@ -5,7 +5,7 @@ using System.Text;
 
 namespace AngularProjesiBusinessEngine.Implementation
 {
-    public class UserBusinessEngine : IUserBusinessEngine
+    public class ApplicationUserBusinessEngine : IUserBusinessEngine
     {
     }
 }

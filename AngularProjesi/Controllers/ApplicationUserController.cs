@@ -1,4 +1,5 @@
-﻿using AngularProjesiData.DbModels;
+﻿using AngularProjesiCommon.Dtos;
+using AngularProjesiData.DbModels;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -23,5 +24,11 @@ namespace AngularProjesi.Controllers
             _userManager = userManger;
             _signInManager = signInManager;
         }
+
+        public async Task<Object> PostApplicationUser(ApplicationUserDto model)
+        {
+
+        }
+
     }
 }
