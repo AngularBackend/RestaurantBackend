@@ -8,7 +8,7 @@ using System.Text;
 
 namespace AngularProjesiBusinessEngine.Implementation
 {
-    public class ApplicationUserBusinessEngine : Contracts.ApplicationUserBusinessEngine
+    public class ApplicationUserBusinessEngine : Contracts.IApplicationUserBusinessEngine
     {
         private UserManager<ApplicationUserBusinessEngine> _userManager;
         private SignInManager<ApplicationUserBusinessEngine> _signInManager;
