@@ -2,7 +2,6 @@ using AngularProjesiCommon.Data_Contracts;
 using AngularProjesiData.DataContext;
 using AngularProjesiData.Implementation;
 using Microsoft.AspNetCore.Builder;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
