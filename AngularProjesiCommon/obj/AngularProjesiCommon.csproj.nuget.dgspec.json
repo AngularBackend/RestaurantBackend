@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\karde\\Desktop\\Angular\\AngularProjesi\\AngularProjesiCommon\\AngularProjesiCommon.csproj": {}
+    "C:\\Users\\karde\\Desktop\\YazılımDeposu\\RestaurantBackend\\AngularProjesiCommon\\AngularProjesiCommon.csproj": {}
   },
   "projects": {
-    "C:\\Users\\karde\\Desktop\\Angular\\AngularProjesi\\AngularProjesiCommon\\AngularProjesiCommon.csproj": {
+    "C:\\Users\\karde\\Desktop\\YazılımDeposu\\RestaurantBackend\\AngularProjesiCommon\\AngularProjesiCommon.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\karde\\Desktop\\Angular\\AngularProjesi\\AngularProjesiCommon\\AngularProjesiCommon.csproj",
+        "projectUniqueName": "C:\\Users\\karde\\Desktop\\YazılımDeposu\\RestaurantBackend\\AngularProjesiCommon\\AngularProjesiCommon.csproj",
         "projectName": "AngularProjesiCommon",
-        "projectPath": "C:\\Users\\karde\\Desktop\\Angular\\AngularProjesi\\AngularProjesiCommon\\AngularProjesiCommon.csproj",
+        "projectPath": "C:\\Users\\karde\\Desktop\\YazılımDeposu\\RestaurantBackend\\AngularProjesiCommon\\AngularProjesiCommon.csproj",
         "packagesPath": "C:\\Users\\karde\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\karde\\Desktop\\Angular\\AngularProjesi\\AngularProjesiCommon\\obj\\",
+        "outputPath": "C:\\Users\\karde\\Desktop\\YazılımDeposu\\RestaurantBackend\\AngularProjesiCommon\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\karde\\AppData\\Roaming\\NuGet\\NuGet.Config",

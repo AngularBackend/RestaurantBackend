@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LfsK/ZQttgTxwqh+cft0jonD+lNLD/wEsYwRUl1EKZglFijtOpdqEl/Y9LJkAIGRICwrGOne0G/XJEZJxonZIw==",
+  "dgSpecHash": "V8fygDu1EvFwbD/1c9Q0uIrhOYfsbihSWrLe/fd1otdiF9bfLfn8CckkviqzOJ5MB6FsxIQ8L+VPtF8QIdhXbg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\karde\\Desktop\\Angular\\AngularProjesi\\AngularProjesiData\\AngularProjesiData.csproj",
+  "projectFilePath": "C:\\Users\\karde\\Desktop\\YazılımDeposu\\RestaurantBackend\\AngularProjesiData\\AngularProjesiData.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\karde\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.0\\microsoft.aspnetcore.cryptography.internal.5.0.0.nupkg.sha512",
     "C:\\Users\\karde\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.0\\microsoft.aspnetcore.cryptography.keyderivation.5.0.0.nupkg.sha512",

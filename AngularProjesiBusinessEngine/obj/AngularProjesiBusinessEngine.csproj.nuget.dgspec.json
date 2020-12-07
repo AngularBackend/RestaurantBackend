@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\karde\\Desktop\\Angular\\AngularProjesi\\AngularProjesiBusinessEngine\\AngularProjesiBusinessEngine.csproj": {}
+    "C:\\Users\\karde\\Desktop\\YazılımDeposu\\RestaurantBackend\\AngularProjesiBusinessEngine\\AngularProjesiBusinessEngine.csproj": {}
   },
   "projects": {
-    "C:\\Users\\karde\\Desktop\\Angular\\AngularProjesi\\AngularProjesiBusinessEngine\\AngularProjesiBusinessEngine.csproj": {
+    "C:\\Users\\karde\\Desktop\\YazılımDeposu\\RestaurantBackend\\AngularProjesiBusinessEngine\\AngularProjesiBusinessEngine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\karde\\Desktop\\Angular\\AngularProjesi\\AngularProjesiBusinessEngine\\AngularProjesiBusinessEngine.csproj",
+        "projectUniqueName": "C:\\Users\\karde\\Desktop\\YazılımDeposu\\RestaurantBackend\\AngularProjesiBusinessEngine\\AngularProjesiBusinessEngine.csproj",
         "projectName": "AngularProjesiBusinessEngine",
-        "projectPath": "C:\\Users\\karde\\Desktop\\Angular\\AngularProjesi\\AngularProjesiBusinessEngine\\AngularProjesiBusinessEngine.csproj",
+        "projectPath": "C:\\Users\\karde\\Desktop\\YazılımDeposu\\RestaurantBackend\\AngularProjesiBusinessEngine\\AngularProjesiBusinessEngine.csproj",
         "packagesPath": "C:\\Users\\karde\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\karde\\Desktop\\Angular\\AngularProjesi\\AngularProjesiBusinessEngine\\obj\\",
+        "outputPath": "C:\\Users\\karde\\Desktop\\YazılımDeposu\\RestaurantBackend\\AngularProjesiBusinessEngine\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\karde\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K2OmnGhbX04Lb17UHFXTqxadSymFFQLVkOi1YUb4MnrFFXsBMxVvRLXLq9gSSQ+tBkDi776fKsixbrsVZA4sAw==",
+  "dgSpecHash": "SrWKYKa1ERZM1uB/hGgMWMK/01ofZuHLT6cSoUDu/yx9VTIeGjvoLuVfRJhtoA3uGBNa9iHj/DmVIbOfTucJ2A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\karde\\Desktop\\Angular\\AngularProjesi\\AngularProjesiCommon\\AngularProjesiCommon.csproj",
+  "projectFilePath": "C:\\Users\\karde\\Desktop\\YazılımDeposu\\RestaurantBackend\\AngularProjesiCommon\\AngularProjesiCommon.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

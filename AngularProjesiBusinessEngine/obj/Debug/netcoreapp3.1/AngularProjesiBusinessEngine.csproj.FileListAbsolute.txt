@@ -7,3 +7,12 @@ C:\Users\karde\Desktop\Angular\AngularProjesi\AngularProjesiBusinessEngine\bin\D
 C:\Users\karde\Desktop\Angular\AngularProjesi\AngularProjesiBusinessEngine\obj\Debug\netcoreapp3.1\AngularProjesiBusinessEngine.csproj.CoreCompileInputs.cache
 C:\Users\karde\Desktop\Angular\AngularProjesi\AngularProjesiBusinessEngine\obj\Debug\netcoreapp3.1\AngularProjesiBusinessEngine.dll
 C:\Users\karde\Desktop\Angular\AngularProjesi\AngularProjesiBusinessEngine\obj\Debug\netcoreapp3.1\AngularProjesiBusinessEngine.pdb
+C:\Users\karde\Desktop\YazılımDeposu\RestaurantBackend\AngularProjesiBusinessEngine\bin\Debug\netcoreapp3.1\AngularProjesiBusinessEngine.deps.json
+C:\Users\karde\Desktop\YazılımDeposu\RestaurantBackend\AngularProjesiBusinessEngine\bin\Debug\netcoreapp3.1\AngularProjesiBusinessEngine.dll
+C:\Users\karde\Desktop\YazılımDeposu\RestaurantBackend\AngularProjesiBusinessEngine\bin\Debug\netcoreapp3.1\AngularProjesiBusinessEngine.pdb
+C:\Users\karde\Desktop\YazılımDeposu\RestaurantBackend\AngularProjesiBusinessEngine\obj\Debug\netcoreapp3.1\AngularProjesiBusinessEngine.csprojAssemblyReference.cache
+C:\Users\karde\Desktop\YazılımDeposu\RestaurantBackend\AngularProjesiBusinessEngine\obj\Debug\netcoreapp3.1\AngularProjesiBusinessEngine.AssemblyInfoInputs.cache
+C:\Users\karde\Desktop\YazılımDeposu\RestaurantBackend\AngularProjesiBusinessEngine\obj\Debug\netcoreapp3.1\AngularProjesiBusinessEngine.AssemblyInfo.cs
+C:\Users\karde\Desktop\YazılımDeposu\RestaurantBackend\AngularProjesiBusinessEngine\obj\Debug\netcoreapp3.1\AngularProjesiBusinessEngine.csproj.CoreCompileInputs.cache
+C:\Users\karde\Desktop\YazılımDeposu\RestaurantBackend\AngularProjesiBusinessEngine\obj\Debug\netcoreapp3.1\AngularProjesiBusinessEngine.dll
+C:\Users\karde\Desktop\YazılımDeposu\RestaurantBackend\AngularProjesiBusinessEngine\obj\Debug\netcoreapp3.1\AngularProjesiBusinessEngine.pdb

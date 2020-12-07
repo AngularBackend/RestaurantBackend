@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\karde\\Desktop\\Angular\\AngularProjesi\\AngularProjesi\\AngularProjesi.csproj": {}
+    "C:\\Users\\karde\\Desktop\\YazılımDeposu\\RestaurantBackend\\AngularProjesi\\AngularProjesi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\karde\\Desktop\\Angular\\AngularProjesi\\AngularProjesiCommon\\AngularProjesiCommon.csproj": {
+    "C:\\Users\\karde\\Desktop\\YazılımDeposu\\RestaurantBackend\\AngularProjesiCommon\\AngularProjesiCommon.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\karde\\Desktop\\Angular\\AngularProjesi\\AngularProjesiCommon\\AngularProjesiCommon.csproj",
+        "projectUniqueName": "C:\\Users\\karde\\Desktop\\YazılımDeposu\\RestaurantBackend\\AngularProjesiCommon\\AngularProjesiCommon.csproj",
         "projectName": "AngularProjesiCommon",
-        "projectPath": "C:\\Users\\karde\\Desktop\\Angular\\AngularProjesi\\AngularProjesiCommon\\AngularProjesiCommon.csproj",
+        "projectPath": "C:\\Users\\karde\\Desktop\\YazılımDeposu\\RestaurantBackend\\AngularProjesiCommon\\AngularProjesiCommon.csproj",
         "packagesPath": "C:\\Users\\karde\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\karde\\Desktop\\Angular\\AngularProjesi\\AngularProjesiCommon\\obj\\",
+        "outputPath": "C:\\Users\\karde\\Desktop\\YazılımDeposu\\RestaurantBackend\\AngularProjesiCommon\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\karde\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,14 +58,14 @@
         }
       }
     },
-    "C:\\Users\\karde\\Desktop\\Angular\\AngularProjesi\\AngularProjesiData\\AngularProjesiData.csproj": {
+    "C:\\Users\\karde\\Desktop\\YazılımDeposu\\RestaurantBackend\\AngularProjesiData\\AngularProjesiData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\karde\\Desktop\\Angular\\AngularProjesi\\AngularProjesiData\\AngularProjesiData.csproj",
+        "projectUniqueName": "C:\\Users\\karde\\Desktop\\YazılımDeposu\\RestaurantBackend\\AngularProjesiData\\AngularProjesiData.csproj",
         "projectName": "AngularProjesiData",
-        "projectPath": "C:\\Users\\karde\\Desktop\\Angular\\AngularProjesi\\AngularProjesiData\\AngularProjesiData.csproj",
+        "projectPath": "C:\\Users\\karde\\Desktop\\YazılımDeposu\\RestaurantBackend\\AngularProjesiData\\AngularProjesiData.csproj",
         "packagesPath": "C:\\Users\\karde\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\karde\\Desktop\\Angular\\AngularProjesi\\AngularProjesiData\\obj\\",
+        "outputPath": "C:\\Users\\karde\\Desktop\\YazılımDeposu\\RestaurantBackend\\AngularProjesiData\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\karde\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,8 +82,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\karde\\Desktop\\Angular\\AngularProjesi\\AngularProjesiCommon\\AngularProjesiCommon.csproj": {
-                "projectPath": "C:\\Users\\karde\\Desktop\\Angular\\AngularProjesi\\AngularProjesiCommon\\AngularProjesiCommon.csproj"
+              "C:\\Users\\karde\\Desktop\\YazılımDeposu\\RestaurantBackend\\AngularProjesiCommon\\AngularProjesiCommon.csproj": {
+                "projectPath": "C:\\Users\\karde\\Desktop\\YazılımDeposu\\RestaurantBackend\\AngularProjesiCommon\\AngularProjesiCommon.csproj"
               }
             }
           }
@@ -130,14 +130,14 @@
         }
       }
     },
-    "C:\\Users\\karde\\Desktop\\Angular\\AngularProjesi\\AngularProjesi\\AngularProjesi.csproj": {
+    "C:\\Users\\karde\\Desktop\\YazılımDeposu\\RestaurantBackend\\AngularProjesi\\AngularProjesi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\karde\\Desktop\\Angular\\AngularProjesi\\AngularProjesi\\AngularProjesi.csproj",
+        "projectUniqueName": "C:\\Users\\karde\\Desktop\\YazılımDeposu\\RestaurantBackend\\AngularProjesi\\AngularProjesi.csproj",
         "projectName": "AngularProjesi",
-        "projectPath": "C:\\Users\\karde\\Desktop\\Angular\\AngularProjesi\\AngularProjesi\\AngularProjesi.csproj",
+        "projectPath": "C:\\Users\\karde\\Desktop\\YazılımDeposu\\RestaurantBackend\\AngularProjesi\\AngularProjesi.csproj",
         "packagesPath": "C:\\Users\\karde\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\karde\\Desktop\\Angular\\AngularProjesi\\AngularProjesi\\obj\\",
+        "outputPath": "C:\\Users\\karde\\Desktop\\YazılımDeposu\\RestaurantBackend\\AngularProjesi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\karde\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -154,11 +154,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\karde\\Desktop\\Angular\\AngularProjesi\\AngularProjesiCommon\\AngularProjesiCommon.csproj": {
-                "projectPath": "C:\\Users\\karde\\Desktop\\Angular\\AngularProjesi\\AngularProjesiCommon\\AngularProjesiCommon.csproj"
+              "C:\\Users\\karde\\Desktop\\YazılımDeposu\\RestaurantBackend\\AngularProjesiCommon\\AngularProjesiCommon.csproj": {
+                "projectPath": "C:\\Users\\karde\\Desktop\\YazılımDeposu\\RestaurantBackend\\AngularProjesiCommon\\AngularProjesiCommon.csproj"
               },
-              "C:\\Users\\karde\\Desktop\\Angular\\AngularProjesi\\AngularProjesiData\\AngularProjesiData.csproj": {
-                "projectPath": "C:\\Users\\karde\\Desktop\\Angular\\AngularProjesi\\AngularProjesiData\\AngularProjesiData.csproj"
+              "C:\\Users\\karde\\Desktop\\YazılımDeposu\\RestaurantBackend\\AngularProjesiData\\AngularProjesiData.csproj": {
+                "projectPath": "C:\\Users\\karde\\Desktop\\YazılımDeposu\\RestaurantBackend\\AngularProjesiData\\AngularProjesiData.csproj"
               }
             }
           }
@@ -178,6 +178,12 @@
               "version": "[5.0.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.0, )"
             }
