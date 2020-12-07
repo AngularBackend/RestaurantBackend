@@ -3,6 +3,7 @@ using AngularProjesiData.DataContext;
 using AngularProjesiData.Implementation;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -26,7 +27,7 @@ namespace AngularProjesi
             services.AddControllers();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddDbContext<AngularProjesiDbContext>(options=>options.UseSqlServer(Configuration.GetConnectionString("IdentityConnection")));
-                
+            services.AddIdentity<IdentityUser,IdentityRole >().AddDefaultTokenProviders().AddEntityFrameworkStores<AngularProjesiDbContext>();    
         }
 
         private Action<DbContextOptionsBuilder> UseSqlServer(string v)
