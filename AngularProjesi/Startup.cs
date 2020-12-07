@@ -3,12 +3,11 @@ using AngularProjesiData.DataContext;
 using AngularProjesiData.Implementation;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-
-
-
+using System;
 
 namespace AngularProjesi
 {
@@ -26,8 +25,13 @@ namespace AngularProjesi
         {
             services.AddControllers();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
-            services.AddDbContext<AngularProjesiDbContext>();
+            services.AddDbContext<AngularProjesiDbContext>(options=>options.UseSqlServer(Configuration.GetConnectionString("IdentityConnection")));
                 
+        }
+
+        private Action<DbContextOptionsBuilder> UseSqlServer(string v)
+        {
+            throw new NotImplementedException();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
