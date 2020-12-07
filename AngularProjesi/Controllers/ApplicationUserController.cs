@@ -14,16 +14,7 @@ namespace AngularProjesi.Controllers
     [ApiController]
     public class ApplicationUserController : ControllerBase
     {
-        private UserManager<ApplicationUser> _userManager;
-        private SignInManager<ApplicationUser> _signInManager;
 
-        public ApplicationUserController(UserManager<ApplicationUser> _userManager, SignInManager<ApplicationUser> _signInManager, UserManager<ApplicationUser> userManger, SignInManager<ApplicationUser> signInManager) //Constractor oluşturduk:Çünkü DependencyInjection yaklaşımını kullanabilmek için
-
-        {
-            //Inject işlemini gerçekleştirdik
-            _userManager = userManger;
-            _signInManager = signInManager;
-        }
 
         public async Task<Object> PostApplicationUser(ApplicationUserDto model)
         {

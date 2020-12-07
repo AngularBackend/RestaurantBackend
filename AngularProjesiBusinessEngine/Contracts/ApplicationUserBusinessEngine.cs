@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AngularProjesiBusinessEngine.Contracts
 {
-   public class IUserBusinessEngine
+   public class ApplicationUserBusinessEngine
     {
     }
 }
