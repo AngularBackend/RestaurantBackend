@@ -22,3 +22,6 @@ C:\Users\karde\Desktop\YazılımDeposu\RestaurantBackend\AngularProjesiData\obj\
 C:\Users\karde\Desktop\YazılımDeposu\RestaurantBackend\AngularProjesiData\obj\Debug\netcoreapp3.1\AngularProjesiData.csproj.CopyComplete
 C:\Users\karde\Desktop\YazılımDeposu\RestaurantBackend\AngularProjesiData\obj\Debug\netcoreapp3.1\AngularProjesiData.dll
 C:\Users\karde\Desktop\YazılımDeposu\RestaurantBackend\AngularProjesiData\obj\Debug\netcoreapp3.1\AngularProjesiData.pdb
+C:\Users\karde\Desktop\YazılımDeposu\RestaurantBackend\AngularProjesiData\bin\Debug\netcoreapp3.1\AngularProjesiData.runtimeconfig.json
+C:\Users\karde\Desktop\YazılımDeposu\RestaurantBackend\AngularProjesiData\bin\Debug\netcoreapp3.1\AngularProjesiData.runtimeconfig.dev.json
+C:\Users\karde\Desktop\YazılımDeposu\RestaurantBackend\AngularProjesiData\obj\Debug\netcoreapp3.1\AngularProjesiData.genruntimeconfig.cache
