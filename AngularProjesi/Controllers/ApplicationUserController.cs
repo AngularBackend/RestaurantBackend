@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
+
 namespace AngularProjesi.Controllers
 {
     [Route("api/[controller]")]
@@ -15,11 +16,21 @@ namespace AngularProjesi.Controllers
     public class ApplicationUserController : ControllerBase
     {
 
+        private readonly IApplicationUserBusinessEngine _applicationUserBusinessEngine;
+
+        public ApplicationUserController(IApplicationUserBusinessEngine applicationUserBusinessEngine)
+        {
+            _applicationUserBusinessEngine = applicationUserBusinessEngine;
+        }
 
         public async Task<Object> PostApplicationUser(ApplicationUserDto model)
         {
 
         }
 
+    }
+
+    internal interface IApplicationUserBusinessEngine
+    {
     }
 }
