@@ -1,17 +1,16 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using AngularProjesiData.DbModels;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Text;
+
 
 namespace AngularProjesiData.DataContext
 {
-   public class AngularProjesiDbContext : IdentityDbContext
+   public class AngularProjesiDbContext : IdentityDbContext //IdentityDbContext:kullanıcı girişi şifremi unuttum gibi kısımları otomatik getiriyor
     {
         public AngularProjesiDbContext(DbContextOptions options) :base (options)
         {
 
         }
-
+        public DbSet<ApplicationUser> ApplicationUsers{ get; set; }
     }
 }
