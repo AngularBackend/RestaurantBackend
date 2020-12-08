@@ -1,4 +1,5 @@
 ﻿using AngularProjesiBusinessEngine.Contracts;
+using AngularProjesiData.DbModels;
 using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
@@ -8,12 +9,12 @@ using System.Text;
 
 namespace AngularProjesiBusinessEngine.Implementation
 {
-    public class ApplicationUserBusinessEngine : Contracts.IApplicationUserBusinessEngine
+    public class ApplicationUserBusinessEngine : IApplicationUserBusinessEngine
     {
-        private UserManager<ApplicationUserBusinessEngine> _userManager;
-        private SignInManager<ApplicationUserBusinessEngine> _signInManager;
+        private UserManager<ApplicationUser> _userManager;
+        private SignInManager<ApplicationUser> _signInManager;
 
-        public ApplicationUserBusinessEngine(UserManager<ApplicationUserBusinessEngine> _userManager, SignInManager<ApplicationUserBusinessEngine> _signInManager, UserManager<ApplicationUserBusinessEngine> userManger, SignInManager<ApplicationUserBusinessEngine> signInManager) //Constractor oluşturduk:Çünkü DependencyInjection yaklaşımını kullanabilmek için
+        public ApplicationUserBusinessEngine(UserManager<ApplicationUser> _userManager, SignInManager<ApplicationUser> _signInManager, UserManager<ApplicationUser> userManger, SignInManager<ApplicationUser> signInManager) //Constractor oluşturduk:Çünkü DependencyInjection yaklaşımını kullanabilmek için
 
         {
             //Inject işlemini gerçekleştirdik
