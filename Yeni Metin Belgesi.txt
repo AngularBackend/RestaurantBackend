@@ -4,3 +4,14 @@ data katmanı(domain) doğru işlemleri taşıyacak olan katman
 AngularProjesiData katmanı da: DbContext kısmınıda burada düşünüyoruz.
 
 AngularProjesiCommon : İşlemlerimizi gerçekleştirecek olan bazı dönüşüm viewlerimiz olacak bu katmanda bu işe yarayacak
+
+
+JWT kullanımı:
+
+Kimliklendirme: Aslında en temel kullanım senaryosu budur. 
+Kullanıcının başarılı yaptığı giriş işlemi sonrasında gerçekleştireceği her istek JWT’yi içerir.Bu sayede kullanıcının hangi kaynaklara/web sayfalarına erişeceği bu token bilgisi ile kontrol edilir.
+Farklı domain’ler arasında kolayca token değiş-tokuşunu sağladığı için, tek seferlik giriş (single sign on) senaryolarında yoğun olarak kullanılmaktadır.
+
+Bilgi değiş-tokuşu: JWT’ler dijital olarak imzalanabildiği için bilginin iletişim yapan birimler arası güvenli bir şekilde gerçekleşebilmesi için iyi bir yöntem sunar. 
+Örneğin açık/gizli anahtar ikilileri kullanıldığında bilgiyi gönderen kişinin gerçekte kim olduğunu söylemek mümkündür. 
+Buna ek olarak, JWT’deki header ve payload kısımları dahil edilerek oluşturulan imza sayesinde gelen bilginin değiştirilip/değiştirilmediği kolayca doğrulanabilir.
