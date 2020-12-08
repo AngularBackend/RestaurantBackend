@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 using AngularProjesiBusinessEngine.Contracts;
-
+using AngularProjesiCommon.ResultConstant;
 
 namespace AngularProjesiBusinessEngine.Contracts
 {
    public class IApplicationUserBusinessEngine
     {
-        ApplicationUserDto CreateApplicationUser(ApplicationUserDto model);
+      Result<ApplicationUserDto> CreateApplicationUser(ApplicationUserDto model);
 
     }
 }
