@@ -7,9 +7,9 @@ using AngularProjesiCommon.ResultConstant;
 
 namespace AngularProjesiBusinessEngine.Contracts
 {
-   public class IApplicationUserBusinessEngine
+    public interface IApplicationUserBusinessEngine
     {
-        Task<Result<ApplicationUserDto>> CreateApplicationUser(ApplicationUserDto model);
+        Task<Result<object>> CreateApplicationUser(ApplicationUserDto model);
 
         public object CreateApplicationUserDto(AngularProjesiCommon.Dtos.ApplicationUserDto model)
         {

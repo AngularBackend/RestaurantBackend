@@ -12,6 +12,8 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System;
+using AngularProjesiBusinessEngine.Contracts;
+using AngularProjesiData.DbModels;
 
 namespace AngularProjesi
 {
@@ -30,7 +32,8 @@ namespace AngularProjesi
             services.AddControllers();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddDbContext<AngularProjesiDbContext>(options=>options.UseSqlServer(Configuration.GetConnectionString("IdentityConnection")));
-            services.AddIdentity<IdentityUser,IdentityRole >().AddDefaultTokenProviders().AddEntityFrameworkStores<AngularProjesiDbContext>();    
+            services.AddIdentity<ApplicationUser,IdentityRole >().AddDefaultTokenProviders().AddEntityFrameworkStores<AngularProjesiDbContext>();
+            services.AddScoped<IApplicationUserBusinessEngine, IApplicationUserBusinessEngine>();
         }
 
         private Action<DbContextOptionsBuilder> UseSqlServer(string v)

@@ -24,10 +24,21 @@ namespace AngularProjesi.Controllers
             _applicationUserBusinessEngine = applicationUserBusinessEngine;
         }
 
+        [HttpGet("Index")]
+       
+        public IActionResult Index()
+        {
+           
+            return Ok();
+        }
+
+        [HttpPost]
+        [Route("Register")]
+
         public async Task<Object> PostApplicationUser(ApplicationUserDto model)
         {
-            var data = _applicationUserBusinessEngine.CreateApplicationUser(model);
-            var result = data.Result.Data;
+            var data =  _applicationUserBusinessEngine.CreateApplicationUser(model);
+            var result = data;
             return Ok(result);
         }
 

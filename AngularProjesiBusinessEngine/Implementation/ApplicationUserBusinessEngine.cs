@@ -2,9 +2,9 @@
 using AngularProjesiCommon.ResultConstant;
 using AngularProjesiData.DbModels;
 using Microsoft.AspNetCore.Identity;
-using MySqlX.XDevAPI.Common;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -23,7 +23,7 @@ namespace AngularProjesiBusinessEngine.Implementation
             _signInManager = signInManager;
         }
 
-        public async Task<Result<ApplicationUserDto>> CreateApplicationUser(ApplicationUserDto model)
+        public async Task<Result<object>> CreateApplicationUser(ApplicationUserDto model)
         {
             var applicationUser = new ApplicationUser()
             {
@@ -36,12 +36,18 @@ namespace AngularProjesiBusinessEngine.Implementation
 
             try
             {
-                var result = await _userManager.CreateAsync(applicationUser, model Password);
-                return new Result<ApplicationUserDto>(true, ResultConstant.RecordCreated);
+                var result = await _userManager.CreateAsync(applicationUser);
+
+                if(result.Errors.Count() > 0)
+
+                return new Result<object>(false, ResultConstant.RecordCreated,result);
+
+                return new Result<object>(true, ResultConstant.RecordCreated,result);
+
             }
-            catch (Exception)
+            catch (Exception) 
             {
-                return new Result<ApplicationUserDto>(false, ResultConstant.RecordNotCreated);
+                return new Result<object>(false, ResultConstant.RecordNotCreated);
                 
             }
         }
