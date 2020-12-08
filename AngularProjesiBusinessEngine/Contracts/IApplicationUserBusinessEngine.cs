@@ -9,7 +9,16 @@ namespace AngularProjesiBusinessEngine.Contracts
 {
    public class IApplicationUserBusinessEngine
     {
-        public async Task<Result<ApplicationUserDto>> CreateApplicationUser(ApplicationUserDto model);
+        Task<Result<ApplicationUserDto>> CreateApplicationUser(ApplicationUserDto model);
 
+        public object CreateApplicationUserDto(AngularProjesiCommon.Dtos.ApplicationUserDto model)
+        {
+            throw new NotImplementedException();
+        }
+
+        public object CreateApplicationUser(AngularProjesiCommon.Dtos.ApplicationUserDto model)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

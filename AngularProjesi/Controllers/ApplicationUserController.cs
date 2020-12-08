@@ -1,4 +1,5 @@
-﻿using AngularProjesiCommon.Dtos;
+﻿using AngularProjesiBusinessEngine.Contracts;
+using AngularProjesiCommon.Dtos;
 using AngularProjesiData.DbModels;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
@@ -25,12 +26,12 @@ namespace AngularProjesi.Controllers
 
         public async Task<Object> PostApplicationUser(ApplicationUserDto model)
         {
-
+            var data = _applicationUserBusinessEngine.CreateApplicationUser(model);
+            var result = data.Result.Data;
+            return Ok(result);
         }
 
     }
 
-    internal interface IApplicationUserBusinessEngine
-    {
-    }
+    
 }

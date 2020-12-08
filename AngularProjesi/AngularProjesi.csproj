@@ -21,6 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AngularProjesiBusinessEngine\AngularProjesiBusinessEngine.csproj" />
     <ProjectReference Include="..\AngularProjesiCommon\AngularProjesiCommon.csproj" />
     <ProjectReference Include="..\AngularProjesiData\AngularProjesiData.csproj" />
   </ItemGroup>
